@@ -1,4 +1,6 @@
 #setwd("dev/r-data-science/03GettingCleaningData/assignment")
+library(dplyr)
+
 feature_names <- read.table("dataset/features.txt", header=FALSE)
 
 # combine training and test data of the features
